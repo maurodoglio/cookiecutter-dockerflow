@@ -1,0 +1,9 @@
+{
+  "name": "{{ cookiecutter.project_slug }}",
+  "description": " Backend service powering the Mission Control dashboard",
+  "repository": {
+    "url": "https://github.com/mozilla/{{ cookiecutter.project_slug }}/",
+    "license": "MPL 2.0",
+    "tests": "https://travis-ci.org/mozilla/{{ cookiecutter.project_slug }}/"
+  }
+}

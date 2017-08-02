@@ -1,0 +1,9 @@
+{
+  "full_name": "Mauro Doglio",
+  "email": "mauro@mozilla.com",
+  "project_name": "Dockerflow cookiecutter",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Dockerflow cookiecutter contains all the boilerplate you need to create a Dockerflow-compliant project.",
+  "version": "0.1.0",
+  "open_source_license": "MPLv2 license"
+}

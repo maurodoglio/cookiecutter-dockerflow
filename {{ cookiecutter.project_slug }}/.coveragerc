@@ -1,0 +1,10 @@
+[run]
+source = {{ cookiecutter.project_slug }}
+branch = True
+data_file = /tmp/.coverage
+
+[report]
+omit = */migrations/*
+
+[xml]
+output = /tmp/coverage.xml
