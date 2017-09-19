@@ -14,6 +14,7 @@ help:
 	@echo "  ci         	Run tests, flake8 and docs"
 
 build:
+	docker-compose pull --parallel
 	docker-compose build
 
 migrate:
