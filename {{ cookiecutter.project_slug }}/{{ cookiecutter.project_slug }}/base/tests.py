@@ -6,7 +6,7 @@ class HomeTests(TestCase):
 
     def test_page_title(self):
         response = self.client.get(reverse('home'))
-        self.assertIn('<h1>{{ cookiecutter.project_slug }}</h1>', response.content.decode('utf-8'))
+        self.assertIn('<h1>{{ cookiecutter.project_name }}</h1>', response.content.decode('utf-8'))
 
 
 class TestContribute(TestCase):
