@@ -6,7 +6,7 @@ help:
 	@echo "  build          Builds the docker images for the docker-compose setup"
 	@echo "  migrate        Runs the Django database migrations"
 	@echo "  shell          Opens a Bash shell"
-	@echo "  django-shell   Opens a Bash shell"
+	@echo "  django-shell   Opens a Django shell"
 	@echo "  up         	Runs the whole stack, served under http://localhost:8000/"
 	@echo "  tests      	Run pytest tests using tox"
 	@echo "  flake8     	Run flake8 using tox"
